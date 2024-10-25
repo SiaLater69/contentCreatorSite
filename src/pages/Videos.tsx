@@ -84,7 +84,7 @@ export default function Videos() {
     {
       title:
         'Shopping in Cape Town FT: Pickups and hauls | Life in my 20s | A week in Cape Town',
-      thumbnail: 'https://img.youtube.com/vi/wYDgXmYGIHE/sddefault.jpg',
+      thumbnail: 'https://img.youtube.com/vi/E1C__GfSags/sddefault.jpg',
       views: '8.8K',
       date: '2 months ago',
       duration: '17:56',
@@ -165,7 +165,7 @@ export default function Videos() {
     {
       title: 'Shopping in Cape Town FT: My favourite jeans | Life in my 20s | A week in Cape Town',
       thumbnail:
-        'https://img.youtube.com/vi/K5rSpY-vXkE/sddefault.jpg',
+        'https://img.youtube.com/vi/wYDgXmYGIHE/sddefault.jpg',
       views: '37K',
       date: '4 months ago',
       duration: '19:33',
