@@ -3,6 +3,7 @@ import { ArrowRight, Youtube, Heart } from 'lucide-react';
 import VideoCard from '../components/VideoCard';
 import TestimonialCard from '../components/TestimonialCard';
 import ImageGrid from '../components/ImageGrid';
+import NewsletterSubscription from '../components/NewsLetter';
 
 export default function Home() {
   const featuredVideos = [
@@ -144,27 +145,7 @@ export default function Home() {
       </div> */}
 
       {/* Newsletter */}
-      <div className="bg-red-600 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">Stay Updated</h2>
-          <p className="text-white opacity-90 mb-8 max-w-2xl mx-auto">
-            Subscribe to my newsletter and never miss out on new content, behind-the-scenes footage, and exclusive tips.
-          </p>
-          <form className="max-w-md mx-auto flex gap-4">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
-            />
-            <button
-              type="submit"
-              className="px-6 py-3 bg-white text-red-600 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-            >
-              Subscribe
-            </button>
-          </form>
-        </div>
-      </div>
+      <NewsletterSubscription/>
     </div>
   );
 }
