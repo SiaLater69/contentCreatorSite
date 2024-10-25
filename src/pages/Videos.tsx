@@ -84,7 +84,7 @@ export default function Videos() {
     {
       title:
         'Shopping in Cape Town FT: Pickups and hauls | Life in my 20s | A week in Cape Town',
-      thumbnail: 'https://img.youtube.com/vi/E1C__GfSags/sddefault.jpg',
+      thumbnail: 'https://www.youtube.com/watch?v=wYDgXmYGIHE',
       views: '8.8K',
       date: '2 months ago',
       duration: '17:56',
