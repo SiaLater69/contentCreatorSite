@@ -1,11 +1,13 @@
-import React from 'react';
 import { ArrowRight, Youtube, Heart } from 'lucide-react';
 import VideoCard from '../components/VideoCard';
-import TestimonialCard from '../components/TestimonialCard';
+// import TestimonialCard from '../components/TestimonialCard';
 import ImageGrid from '../components/ImageGrid';
 import NewsletterSubscription from '../components/NewsLetter';
+import React from 'react';
 
 export default function Home() {
+
+
   const featuredVideos = [
     {
       title: 'I bought a Porsche at 22 | Life in my twenties',
