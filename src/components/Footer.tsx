@@ -1,5 +1,5 @@
 import React from 'react';
-import { Youtube, Twitter, Instagram, Mail } from 'lucide-react';
+import { Youtube, Music2 , Instagram, Mail } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -10,14 +10,14 @@ export default function Footer() {
             <h3 className="text-lg font-bold">CreatorName</h3>
             <p className="text-gray-400">Creating awesome content since 2020</p>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-red-500 transition-colors">
+              <a href="https://www.youtube.com/@ethankieffer" target="_" className="hover:text-red-500 transition-colors">
                 <Youtube className="h-5 w-5" />
               </a>
-              <a href="#" className="hover:text-blue-400 transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:text-pink-500 transition-colors">
+              <a href="https://www.instagram.com/ethan_kieffer/" target="_" className="hover:text-pink-500 transition-colors">
                 <Instagram className="h-5 w-5" />
+              </a>
+              <a href="https://www.tiktok.com/@ethan_kieffer?lang=en" target="_" className="hover:text-pink-500 text-gray-200 transition-colors">
+                <Music2 className="h-5 w-5" />
               </a>
               <a href="#" className="hover:text-blue-500 transition-colors">
                 <Mail className="h-5 w-5" />

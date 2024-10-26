@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, X, Youtube, Twitter, Instagram } from 'lucide-react';
+import { Menu, X, Youtube,Music2, Instagram } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 export default function Navbar() {
@@ -47,15 +47,15 @@ export default function Navbar() {
 
           {/* Social Icons */}
           <div className="hidden md:flex items-center space-x-4">
-            <a href="#" className="text-gray-600 hover:text-red-600">
+            <a href="https://www.youtube.com/@ethankieffer" target="_" className="text-gray-600 hover:text-red-600">
               <Youtube className="h-5 w-5" />
             </a>
-            <a href="#" className="text-gray-600 hover:text-blue-400">
-              <Twitter className="h-5 w-5" />
-            </a>
-            <a href="#" className="text-gray-600 hover:text-pink-600">
+            <a href="https://www.instagram.com/ethan_kieffer/" target="_" className="text-gray-600 hover:text-pink-600">
               <Instagram className="h-5 w-5" />
             </a>
+            <a href="https://www.tiktok.com/@ethan_kieffer?lang=en" target="_" className="hover:text-pink-500 text-gray-600 transition-colors">
+                <Music2 className="h-5 w-5" />
+              </a>
           </div>
 
           {/* Mobile menu button */}
