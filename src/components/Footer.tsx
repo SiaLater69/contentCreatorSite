@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">CreatorName</h3>
+            <h3 className="text-lg font-bold">Ethan Kieffer</h3>
             <p className="text-gray-400">Creating awesome content since 2020</p>
             <div className="flex space-x-4">
               <a href="https://www.youtube.com/@ethankieffer" target="_" className="hover:text-red-500 transition-colors">
