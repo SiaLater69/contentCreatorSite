@@ -6,7 +6,11 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Videos from './pages/Videos';
 import ContactForm from './pages/Contact';
-import Blog from './pages/Blog';
+import DailyOutfitShowcase from './pages/ShopPage/Shop';
+import October25 from './pages/ShopPage/dates/October25';
+import October24 from './pages/ShopPage/dates/October24';
+
+
 
 
 function App() {
@@ -20,7 +24,9 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/videos" element={<Videos />} />
             <Route path="/contact" element={<ContactForm/>}/>
-            {/* <Route path="/blog" element={<Blog/>}/> */}
+            <Route path="/shop" element={<DailyOutfitShowcase/>}/>
+            <Route path='/october25' element={<October25/>}/>
+            <Route path='/october24' element={<October24/>}/>
           </Routes>
         </main>
         <Footer />
