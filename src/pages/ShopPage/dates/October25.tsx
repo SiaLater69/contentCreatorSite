@@ -13,29 +13,44 @@ type ClothingItem = {
 const clothingItems: ClothingItem[] = [
   {
     id: 1,
-    name: "Vintage Denim Jacket",
-    description: "Classic distressed denim with modern fit",
-    price: "$89.99",
+    name: "MAISON MARGIELA | Brown Tabi Loafers",
+    description: "Polished leather loafers in brown.",
+    price: "£870 GBP",
     imageSrc: "https://static.shopmy.us/pins/zoom-8952372-1729872738133-zoom-6410759-1721302362315-maison-margiela-brown-tabi-loafers.jpg",
-    shopUrl: "#"
+    shopUrl: "https://www.ssense.com/en-gb/men/product/maison-margiela/brown-tabi-loafers/16218391"
   },
   {
     id: 2,
     name: "COS | Wide-Leg Cotton Utility Pants | Mole",
-    description: "Premium cotton crew neck",
-    price: "$29.99",
+    description: "Utilitarian design is an assured way to elevate the everyday uniform. Cut in a relaxed shape, these trousers are made from structured cotton-canvas and designed with practical pockets inspired by workwear.",
+    price: "$135 USD",
     imageSrc: "https://static.shopmy.us/pins/zoom-8952385-1729872756906-da039389-b661-458c-a94e-086d9d92f7cb_CosUtilityPants.jpeg",
-    shopUrl: "#"
+    shopUrl: "https://www.cos.com/en/men/menswear/trousers/product.wide-leg-cotton-utility-trousers-brown.1243816002.html"
   },
   {
     id: 3,
-    name: "Slim-Fit Black Jeans",
-    description: "Stretch denim with perfect fade",
-    price: "$79.99",
-    imageSrc: "https://production-shopmyshelf-uploads.s3.us-east-2.amazonaws.com/img-sociallink-1729872686201",
-    shopUrl: "#"
+    name: "TIGER OF SWEDEN | Finnan Coat",
+    description: "My option is not available. This is a similar silhouette.",
+    price: "$699 USD",
+    imageSrc: "https://static.shopmy.us/pins/zoom-8952398-1729872780173-zoom-7119118-1724150542454-T69502018_284_lookbook2.jpg",
+    shopUrl: "https://www.tigerofsweden.com/us/en/men/outerwear/finnan-coat-110908284.html"
   },
-  // Add additional items as needed
+  {
+    id: 4,
+    name: "A.P.C | Camille Scarf",
+    description: "Long wide scarf in Merino wool-cashmere blend.",
+    price: "$225 USD",
+    imageSrc: "https://static.shopmy.us/pins/zoom-8952404-1729872790643-zoom-8035262-1727190718851-WVBBR-M15174IAK_01.jpg",
+    shopUrl: "https://www.apc-us.com/products/wvbbr-m15174?variant=39920169877603"
+  },
+  {
+    id:5,
+    name:"NORSE PROJECTS | Wool Cotton Rib Beanie",
+    description:"A short beanie inspired by the classic watch cap worn by the US Navy",
+    price:"$90 USD",
+    imageSrc:"https://static.shopmy.us/pins/zoom-8952418-1729872815001-zoom-7119238-1724151825422-46068_d788e4a6fd-n95-0840-7004-01-packshot-s_big.jpg",
+    shopUrl:"https://www.norseprojects.com/store/men/beanies/n95-0840-7004-watch-cap-woolcotton"
+  },
 ]
 
 export default function October25() {
