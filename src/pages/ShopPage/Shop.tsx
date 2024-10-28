@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
+import { Youtube,Instagram,Music2} from 'lucide-react'
 
 type ClothingItem = {
   id: number
@@ -39,7 +40,12 @@ export default function DailyOutfitShowcase() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-center mb-8">Today's Outfit Showcase</h1>
+      <h1 className="text-3xl font-bold text-center mb-8">Curated items to stand the test of time.</h1>
+      <div className="flex justify-center gap-4 mb-6">
+      <a href="https://www.youtube.com/@ethankieffer" target='_blank'><Youtube/></a>
+      <a href="https://www.instagram.com/ethan_kieffer/" target='_blank'><Instagram/></a>
+      <a href='https://www.tiktok.com/@ethan_kieffer' target='_blank'><Music2/></a>
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {clothingItems.map((item) => (
           <div

@@ -1,6 +1,7 @@
 import React from "react"
 import { ShoppingBag, ExternalLink } from "lucide-react"
 
+
 type ClothingItem = {
   id: number
   name: string
@@ -83,7 +84,7 @@ export default function October27() {
     <div className="min-h-screen">
       <div className="container mx-auto px-4 py-16">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">Today's Curated Outfit</h1>
+          <h1 className="text-5xl font-bold text-gray-900 mb-6">Weekend with the Boys in Paris <br/> [October27]</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Discover a perfectly coordinated ensemble that combines style, comfort, and versatility.
           </p>

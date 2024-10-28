@@ -82,11 +82,12 @@ export default function October24() {
     <div className="min-h-screen">
       <div className="container mx-auto px-4 py-16">
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-gray-900 mb-6">Today's Curated Outfit</h1>
+          <h1 className="text-5xl font-bold text-gray-900 mb-6">The Perfect Trouser<br/>[October24]</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Discover a perfectly coordinated ensemble that combines style, comfort, and versatility.
           </p>
         </div>
+
         <div className="flex justify-center h-[500px] w-full">
                 <img src="https://production-shopmyshelf-uploads.s3.us-east-2.amazonaws.com/img-sociallink-1729779616892" alt="october 24 outfit"/>
             </div>
