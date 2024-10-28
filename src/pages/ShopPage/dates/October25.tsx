@@ -132,6 +132,7 @@ export default function October25() {
         <div className="flex justify-center h-[500px] w-full">
                 <img src="https://production-shopmyshelf-uploads.s3.us-east-2.amazonaws.com/img-sociallink-1729872686201" alt="october 25 outfit"/>
             </div>
+            <br/>
         <div className="space-y-12">
           {clothingItems.map((item, index) => (
             <div 

@@ -14,8 +14,8 @@ const clothingItems: ClothingItem[] = [
     id: 1,
     name: "Weekend with the Boys in Paris",
     date: "October 27th",
-    imageSrc: "https://production-shopmyshelf-uploads.s3.us-east-2.amazonaws.com/img-sociallink-1729872686201",
-    href: '/October25'
+    imageSrc: "https://static.shopmy.us/uploads/img-sociallink-1730100485090",
+    href: '/October27'
   },
   {
     id: 2,
