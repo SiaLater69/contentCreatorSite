@@ -14,6 +14,15 @@ export default function Videos() {
 
   const videos = [
     {
+      title: 'Alone in Copenhagen | Life in my twenties | Solo travel in Europe',
+      thumbnail: 'https://img.youtube.com/vi/alxASq9XJDg/sddefault.jpg',
+      views: '3.5K',
+      date: '1 day ago',
+      duration: '16:06',
+      category: 'vlogs',
+    },
+
+    {
       title: 'Life in my twenties | The Porsche car run | Documentary vlog',
       thumbnail: 'https://img.youtube.com/vi/R9hBBteS3w4/sddefault.jpg',
       views: '6.5K',
