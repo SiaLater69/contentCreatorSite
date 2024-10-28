@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Search, Filter } from 'lucide-react';
 import VideoCard from '../components/VideoCard';
+import { video } from 'framer-motion/client';
 
 export default function Videos() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -20,6 +21,7 @@ export default function Videos() {
       date: '1 day ago',
       duration: '16:06',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=alxASq9XJDg'
     },
 
     {
@@ -29,6 +31,7 @@ export default function Videos() {
       date: '1 week ago',
       duration: '14:49',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=R9hBBteS3w4'
     },
     {
       title: 'I bought a Porsche at 22 | Life in my twenties',
@@ -37,6 +40,7 @@ export default function Videos() {
       date: '3 weeks ago',
       duration: '14:33',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=UWy1SV9dAuE'
     },
     {
       title:
@@ -46,6 +50,7 @@ export default function Videos() {
       date: '4 weeks ago',
       duration: '19:57',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=Yj8ZtNmngN0'
     },
     {
       title: 'Life in my twenties | Cape Town is a movie',
@@ -54,6 +59,7 @@ export default function Videos() {
       date: '1 month ago',
       duration: '13:56',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=prLkDPoTZ2o'
     },
     {
       title: 'My Entire Shoe Collection 2024 | Life in my twenties',
@@ -62,6 +68,7 @@ export default function Videos() {
       date: '1 month ago',
       duration: '16:25',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=Q8joTNZnvxQ'
     },
     {
       title:
@@ -71,6 +78,7 @@ export default function Videos() {
       date: '2 months ago',
       duration: '13:22',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=ZjT-j6UHaps'
     },
     {
       title:
@@ -80,6 +88,7 @@ export default function Videos() {
       date: '2 months ago',
       duration: '13:18',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=3zOQL6gExq4'
     },
     {
       title:
@@ -89,6 +98,7 @@ export default function Videos() {
       date: '2 months ago',
       duration: '15:59',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=vmOOxVMzdsU'
     },
     {
       title:
@@ -98,6 +108,7 @@ export default function Videos() {
       date: '2 months ago',
       duration: '17:56',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=E1C__GfSags'
     },
     {
       title:
@@ -107,6 +118,7 @@ export default function Videos() {
       date: '2 months ago',
       duration: '13:09',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=MdWZgMT7ed4'
     },
     {
       title: 'My favorite trousers FT: Chimi dinner | Life in my 20s | A week in Cape Town',
@@ -116,6 +128,7 @@ export default function Videos() {
       date: '2 months ago',
       duration: '13:23',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=MULFwhvWgms'
     },
     {
       title: "I bought Maison Margiela Tabi's FT: my footwear rotation | Life in my 20s | A week in Cape Town",
@@ -125,6 +138,7 @@ export default function Videos() {
       date: '3 months ago',
       duration: '14:27',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=9YLUpCwhIeA'
     },
     {
       title: 'Realistic week in Cape Town FT: A photoshoot | Life in my 20s | A week in Cape Town',
@@ -134,6 +148,7 @@ export default function Videos() {
       date: '3 months ago',
       duration: '13:32',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=04MJ8zu2xDc'
     },
     {
       title: "Shopping in Cape Town FT: Outfits I've been wearing | Life in my 20s | A week in Cape Town",
@@ -143,6 +158,7 @@ export default function Videos() {
       date: '3 months ago',
       duration: '21:32',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=4WKNn6-qgss'
     },
     {
       title: 'Productive week in my life FT: my night time routine | Life in my 20s | A week in Cape Town',
@@ -152,6 +168,7 @@ export default function Videos() {
       date: '3 months ago',
       duration: '12:20',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=jWu9ZL3kAqc'
     },
     {
       title: "Father's Day with Hermès FT: Loads of PR packages | Life in my 20s | A week in Cape Town",
@@ -161,6 +178,7 @@ export default function Videos() {
       date: '4 months ago',
       duration: '12:41',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=8rJNpKZ0Br0'
     },
     {
       title: 'How social media became my job FT: Q&A | Life in my 20s | A week in Cape Town',
@@ -170,6 +188,7 @@ export default function Videos() {
       date: '4 months ago',
       duration: '17:19',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=K5rSpY-vXkE'
     },
     {
       title: 'Shopping in Cape Town FT: My favourite jeans | Life in my 20s | A week in Cape Town',
@@ -179,6 +198,7 @@ export default function Videos() {
       date: '4 months ago',
       duration: '19:33',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=wYDgXmYGIHE'
     },
     {
       title: 'Life in my twenties | A week in Cape Town | Finding my routine',
@@ -188,6 +208,7 @@ export default function Videos() {
       date: '4 months ago',
       duration: '17:23',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=IcaLmpr52bs'
     },
     {
       title: 'BTS shooting content | A week in Cape Town | Life in my 20s',
@@ -197,6 +218,7 @@ export default function Videos() {
       date: '4 months ago',
       duration: '10:37',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=6M85Hp5VVOI'
     },
     {
       title: "Life in my twenties | A week in Cape Town | Window shopping and Mother's Day celebrations",
@@ -206,6 +228,7 @@ export default function Videos() {
       date: '5 months ago',
       duration: '10:50',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=BMioXGPmsyw'
     },
     {
       title: 'Life in my twenties | A week in Cape Town | Getting Dressed by Oakley',
@@ -215,6 +238,7 @@ export default function Videos() {
       date: '5 months ago',
       duration: '19:18',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=nFYHkdyD77g'
     },
     {
       title: 'Life in my twenties | A week in Cape Town | EP: 05 | Full time in social media',
@@ -224,6 +248,7 @@ export default function Videos() {
       date: '5 months ago',
       duration: '08:56',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=XiGybCYUsyg'
     },
     {
       title: 'Life in my twenties | A week in Cape Town | EP: 04 | Trip away',
@@ -233,6 +258,7 @@ export default function Videos() {
       date: '5 months ago',
       duration: '10:50',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=b1A_j8R8b9Q'
     },
     {
       title: 'A week in Cape Town | Gifts and clothing hauls',
@@ -242,6 +268,7 @@ export default function Videos() {
       date: '6 months ago',
       duration: '13:02',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=-h143VVWka0'
     },
     {
       title: 'A week in Cape Town | Fashion shows, events and building routines',
@@ -251,6 +278,7 @@ export default function Videos() {
       date: '6 months ago',
       duration: '13:05',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=okMl5M5ygII'
     },
     {
       title: 'Life in my 20s | A week in Cape Town FT: shopping, training and graduations',
@@ -260,6 +288,7 @@ export default function Videos() {
       date: '6 months ago',
       duration: '14:45',
       category: 'vlogs',
+      videoUrl: 'https://www.youtube.com/watch?v=skOC4Q-Tun4'
     },
   ];
 
@@ -317,10 +346,20 @@ export default function Videos() {
 
         {/* Video Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredVideos.map((video, index) => (
-            <VideoCard key={index} {...video} />
-          ))}
-        </div>
+        {filteredVideos.map((video, index) => (
+  <a 
+    href={video.videoUrl}
+    key={index}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block transition-transform hover:scale-105"
+  >
+    {video.videoUrl && (
+      <VideoCard {...video} />
+    )}
+  </a>
+))}
+</div>
 
         {filteredVideos.length === 0 && (
           <div className="text-center py-12">

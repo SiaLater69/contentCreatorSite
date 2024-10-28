@@ -7,12 +7,14 @@ interface VideoCardProps {
   views: string;
   date: string;
   duration: string;
+  videoUrl: string;
 }
 
-export default function VideoCard({ title, thumbnail, views, date, duration }: VideoCardProps) {
+export default function VideoCard({ title, thumbnail, views, date, duration,videoUrl }: VideoCardProps) {
   return (
     <div className="group relative overflow-hidden rounded-lg shadow-lg transition-transform hover:scale-105">
       <div className="relative aspect-video">
+        <a href={videoUrl}>
         <img
           src={thumbnail}
           alt={title}
@@ -21,6 +23,7 @@ export default function VideoCard({ title, thumbnail, views, date, duration }: V
         <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity flex items-center justify-center">
           <Play className="text-white opacity-0 group-hover:opacity-100 transition-opacity w-12 h-12" />
         </div>
+        </a>
         <span className="absolute bottom-2 right-2 bg-black bg-opacity-75 text-white px-2 py-1 text-sm rounded">
           {duration}
         </span>
