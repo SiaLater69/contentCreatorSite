@@ -87,7 +87,9 @@ export default function October24() {
             Discover a perfectly coordinated ensemble that combines style, comfort, and versatility.
           </p>
         </div>
-
+        <div className="flex justify-center h-[500px] w-full">
+                <img src="https://production-shopmyshelf-uploads.s3.us-east-2.amazonaws.com/img-sociallink-1729779616892" alt="october 24 outfit"/>
+            </div>
         <div className="space-y-12">
           {clothingItems.map((item, index) => (
             <div 

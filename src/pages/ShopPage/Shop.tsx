@@ -12,18 +12,26 @@ type ClothingItem = {
 const clothingItems: ClothingItem[] = [
   {
     id: 1,
+    name: "Weekend with the Boys in Paris",
+    date: "October 27th",
+    imageSrc: "https://production-shopmyshelf-uploads.s3.us-east-2.amazonaws.com/img-sociallink-1729872686201",
+    href: '/October25'
+  },
+  {
+    id: 2,
     name: "The Weeks Fits",
     date: "October 25th",
     imageSrc: "https://production-shopmyshelf-uploads.s3.us-east-2.amazonaws.com/img-sociallink-1729872686201",
     href: '/October25'
   },
   {
-    id: 2,
+    id: 3,
     name: "The Perfect Trousers",
     date: "October 24th",
     imageSrc: "https://static.shopmy.us/uploads/img-sociallink-1729779616892",
     href: '/October24'
   },
+
 ]
 
 export default function DailyOutfitShowcase() {

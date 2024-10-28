@@ -9,6 +9,7 @@ import ContactForm from './pages/Contact';
 import DailyOutfitShowcase from './pages/ShopPage/Shop';
 import October25 from './pages/ShopPage/dates/October25';
 import October24 from './pages/ShopPage/dates/October24';
+import October27 from './pages/ShopPage/dates/October27';
 
 
 
@@ -25,6 +26,7 @@ function App() {
             <Route path="/videos" element={<Videos />} />
             <Route path="/contact" element={<ContactForm/>}/>
             <Route path="/shop" element={<DailyOutfitShowcase/>}/>
+            <Route path='/october27' element={<October27/>}/>
             <Route path='/october25' element={<October25/>}/>
             <Route path='/october24' element={<October24/>}/>
           </Routes>
