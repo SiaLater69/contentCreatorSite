@@ -16,7 +16,7 @@ export default function Footer() {
               <a href="https://www.instagram.com/ethan_kieffer/" target="_" className="hover:text-pink-500 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="https://www.tiktok.com/@ethan_kieffer?lang=en" target="_" className="hover:text-pink-500 text-gray-200 transition-colors">
+              <a href="https://www.tiktok.com/@ethan_kieffer?lang=en" target="_" className="hover:text-blue-500 text-gray-200 transition-colors">
                 <Music2 className="h-5 w-5" />
               </a>
               <a href="#" className="hover:text-blue-500 transition-colors">
